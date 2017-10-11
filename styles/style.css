@@ -1,0 +1,34 @@
+.card-style {
+  width: 50%;
+  height: 50%;
+}
+
+.flex-container{
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.text-style {
+  font-size: 400px;
+}
+
+.card-separation {
+  width: 30px;
+  padding: 30px;
+}
+
+.satisfied-style {
+  background-color: #FFEB3B;
+}
+
+.disatisfied-style {
+  background-color: #03A9F4;
+}

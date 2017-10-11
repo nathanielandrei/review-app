@@ -1,0 +1,90 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="styles/style.css"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav>
+        <div class="nav-wrapper indigo">
+            <!-- <i class="brand-logo material-icons">account_circle</i><a href="#" class="brand-logo right">User</a> -->
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons right">account_circle</i>user_name</a></li>
+          </ul>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="images/flightrestaurant.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>This is our big Tagline!</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/burger.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>Left Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/chef.jpg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3>Right Aligned Caption</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/foodtable.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>This is our big Tagline!</h3>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slider').slider({full_width:true});
+      });
+      </script>
+      <div class="center">
+        <h2 class="header">Please Rate us</h2></br>
+        <div class="flex-container">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light satisfied-style">
+                <i class="material-icons text-style">sentiment_very_satisfied</i>
+            </div>
+            <div class="card-content center">
+              <span class="card-title activator grey-text text-darken-4">Extremely Satisfied!</span>
+            </div>
+          </div>
+          <div class="card-separation"></div>
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light disatisfied-style">
+                  <i class="material-icons text-style">sentiment_very_dissatisfied</i>
+              </div>
+              <div class="card-content center">
+                <span class="card-title activator grey-text text-darken-4">Extremely Satisfied!</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </body>
+  </html>
