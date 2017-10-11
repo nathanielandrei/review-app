@@ -1,2 +1,2 @@
 # Review App
-# Mock-up Page
+Mockup page
